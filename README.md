@@ -17,7 +17,7 @@ This Discord bot is designed to scan a PDF document specific for UKDW schedule, 
 - Dependencies (installed via `pip`)
 
 ## Usage
-![]()
+![](https://github.com/SanjayaCF/schedule-bot/blob/main/illustration/testing.gif)
 
 ## Setup Instructions
 
