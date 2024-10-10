@@ -18,7 +18,7 @@ This Discord bot is designed to scan a PDF document specific for UKDW schedule, 
 
 ## Demo
 ### Usage
-![](https://github.com/SanjayaCF/schedule-bot/blob/main/illustration/testing.gif)
+<img src="https://github.com/SanjayaCF/schedule-bot/blob/main/illustration/testing.gif" width="50%">
 
 ### PDF Schedule Example
 <img src="https://github.com/SanjayaCF/schedule-bot/blob/main/illustration/krs_example.png" width="50%">
