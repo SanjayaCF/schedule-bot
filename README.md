@@ -16,6 +16,9 @@ This Discord bot is designed to scan a PDF document specific for UKDW schedule, 
 - Discord Bot (configured on the Discord Developer Portal)
 - Dependencies (installed via `pip`)
 
+## Usage
+![]()
+
 ## Setup Instructions
 
 ### 1. Clone the Repository
