@@ -21,8 +21,8 @@ This Discord bot is designed to scan a PDF document specific for UKDW schedule, 
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
-cd <repository-directory>
+git clone https://github.com/SanjayaCF/schedule-bot.git
+cd <to cloned directory>
 ```
 
 ### 2. Configure Environment Variables
@@ -43,7 +43,7 @@ python main.py
 ### 4. Using the Bot
 Once the bot is up and running, use the following command in your Discord server:
 
-`.krs`  : Store schedule into mongoDB based on the krs that are uploaded.
+`.krs`  : Store schedule into mongoDB based on the krs that are uploaded.</br>
 `.kelas`: Displays your schedule from mongoDB.
 
 ### Note
