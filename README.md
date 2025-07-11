@@ -30,7 +30,7 @@ The `.statistics` command was created with the vision of expanding the bot into 
 
 ### PDF Schedule Example
 
-<img src="illustration/krs\_example.png" alt="example Image" style="width:50%;" />
+<img src="illustration/krs_example.png" alt="example Image" style="width:50%;" />
 
 -----
 
