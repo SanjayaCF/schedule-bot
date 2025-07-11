@@ -4,7 +4,7 @@ This Discord bot is designed to scan a PDF of UKDW university schedule, extract 
 
 -----
 
-## Key Features ✨
+## Key Features
 
   * **PDF Schedule Parsing**: Upload and scan a PDF of your college schedule.
   * **MongoDB Integration**: Stores the extracted schedule data in a MongoDB database.
