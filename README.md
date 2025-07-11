@@ -26,6 +26,7 @@ The `.statistics` command was created with the vision of expanding the bot into 
 
 ### Usage
 
+![Test Image 1](illustration/testing.gif)
 \<img src="[https://github.com/SanjayaCF/schedule-bot/blob/main/illustration/testing.gif](https://github.com/SanjayaCF/schedule-bot/blob/main/illustration/testing.gif)" width="50%"\>
 
 ### PDF Schedule Example
