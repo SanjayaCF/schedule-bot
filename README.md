@@ -26,11 +26,11 @@ The `.statistics` command was created with the vision of expanding the bot into 
 
 ### Usage
 
-\<img src="[https://raw.githubusercontent.com/SanjayaCF/schedule-bot/main/illustration/testing.gif](https://www.google.com/search?q=https://raw.githubusercontent.com/SanjayaCF/schedule-bot/main/illustration/testing.gif)" width="50%"\>
+\<img src="[https://github.com/SanjayaCF/schedule-bot/blob/main/illustration/testing.gif](https://github.com/SanjayaCF/schedule-bot/blob/main/illustration/testing.gif)" width="50%"\>
 
 ### PDF Schedule Example
 
-\<img src="[https://raw.githubusercontent.com/SanjayaCF/schedule-bot/main/illustration/krs\_example.png](https://www.google.com/search?q=https://raw.githubusercontent.com/SanjayaCF/schedule-bot/main/illustration/krs_example.png)" width="50%"\>
+\<img src="[https://github.com/SanjayaCF/schedule-bot/blob/main/illustration/krs\_example.png](https://github.com/SanjayaCF/schedule-bot/blob/main/illustration/krs_example.png)" width="50%"\>
 
 -----
 
