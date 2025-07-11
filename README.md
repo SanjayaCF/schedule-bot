@@ -1,58 +1,94 @@
 # Schedule Discord Bot
 
-This Discord bot is designed to scan a PDF document specific for UKDW schedule, extract the schedule data, store it in a MongoDB database, and display the schedule when the user types `.kelas` in the chat.
+This Discord bot is designed to scan a PDF of UKDW university schedule, extract the schedule data, store it in a MongoDB database, and display a user's schedule in Discord. The main goal is to help users keep track of their classes and get reminders before a class starts.
 
-## Features
+-----
 
-- **PDF Schedule Parsing**: Uploads and scans a PDF document of your college schedule.
-- **MongoDB Integration**: Stores the extracted schedule data in a MongoDB database.
-- **Discord Command**: Users can type `.krs` alongside their krs pdf to store their schedule into mongoDB.
-- **Discord Command**: Users can type `.kelas` to view their schedule within Discord.
+## Key Features ✨
 
-## Requirements
+  * **PDF Schedule Parsing**: Upload and scan a PDF of your college schedule.
+  * **MongoDB Integration**: Stores the extracted schedule data in a MongoDB database.
+  * **Personalized Schedules**: Each user can have their own schedule stored in the database.
+  * **Discord Commands**:
+      * `.krs`: Upload your schedule (in PDF format) to be stored in the database.
+      * `.kelas`: View your personalized schedule within Discord.
+      * `.soal`: Get a random statistics problem.
 
-- Python 3
-- MongoDB (with a configured cluster)
-- Discord Bot (configured on the Discord Developer Portal)
-- Dependencies (installed via `pip`)
+-----
+
+## Future Vision
+
+The `.statistics` command was created with the vision of expanding the bot into a learning tool. The idea is for the bot to generate questions for students to answer as a quiz, not just for statistics but for other subjects as well. This would require significant development to implement fully.
+
+-----
 
 ## Demo
+
 ### Usage
-<img src="https://github.com/SanjayaCF/schedule-bot/blob/main/illustration/testing.gif" width="50%">
+
+\<img src="[https://github.com/SanjayaCF/schedule-bot/blob/main/illustration/testing.gif](https://github.com/SanjayaCF/schedule-bot/blob/main/illustration/testing.gif)" width="50%"\>
 
 ### PDF Schedule Example
-<img src="https://github.com/SanjayaCF/schedule-bot/blob/main/illustration/krs_example.png" width="50%">
 
-## Setup Instructions
+\<img src="[https://github.com/SanjayaCF/schedule-bot/blob/main/illustration/krs\_example.png](https://github.com/SanjayaCF/schedule-bot/blob/main/illustration/krs_example.png)" width="50%"\>
 
-### 1. Clone the Repository
+-----
 
-```bash
-git clone https://github.com/SanjayaCF/schedule-bot.git
-cd <to cloned directory>
-```
+## Getting Started
 
-### 2. Configure Environment Variables
-Create a .env file in the root of your project and add the following:
-```env
-DISCORD_TOKEN=your-discord-bot-token
-MONGO_URI=your-mongodb-client-uri
-DB_CLUSTER=your-cluster-name
-DB_COLLECTION=your-collection-name
-```
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### 3.  Running the Bot
-After setting up your .env file with the correct credentials, you can run the bot using:
-```bash
-python main.py
-```
+### Prerequisites
 
-### 4. Using the Bot
-Once the bot is up and running, use the following command in your Discord server:
+  * Python 3.x
+  * A Discord Bot application created on the [Discord Developer Portal](https://discord.com/developers/applications)
+  * A MongoDB cluster
 
-`.krs`  : Store schedule into mongoDB based on the krs that are uploaded.</br>
-`.kelas`: Displays your schedule from mongoDB.
+### Installation & Setup
 
-### Note
-- The bot expects the MongoDB URI and database collection to be set up properly in your .env file.
-- Ensure you configure your own bot on the [Discord Developer Portal](https://discord.com/developers/applications) and invite it to your server with the appropriate permissions.
+1.  **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/SanjayaCF/schedule-bot.git
+    cd schedule-bot
+    ```
+
+2.  **Create and configure your `.env` file:**
+
+    Create a file named `.env` in the root of the project and add the following, replacing the placeholder values with your actual credentials:
+
+    ```env
+    DISCORD_TOKEN=your-discord-bot-token
+    MONGO_URI=your-mongodb-client-uri
+    DB_CLUSTER=your-cluster-name
+    DB_COLLECTION=your-collection-name
+    ```
+
+3.  **Run the bot:**
+
+    ```bash
+    python main.py
+    ```
+
+-----
+
+## Usage
+
+Once the bot is running in your Discord server, you can use the following commands:
+
+  * `.krs`: Upload your KRS PDF to store your schedule.
+  * `.kelas`: Display your schedule from the database.
+
+**Note**: You must have your bot invited to your Discord server with the appropriate permissions.
+
+-----
+
+## Project Status
+
+This project is not currently in active development, but I may return to it in the future. Pull requests for new features and improvements are welcome.
+
+-----
+
+## Contributing
+
+Contributions are welcome\! If you'd like to contribute to this project, please feel free to fork the repository and submit a pull request.
